@@ -1,0 +1,9 @@
+[[pages]]
+path = "app/streamlit_app.py"
+name = "Welcome!"
+icon = ":house:"
+
+[[pages]]
+path = "app/page_1.py"
+name = "Page 1"
+icon = ":nerd_face:"
