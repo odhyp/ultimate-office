@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="File Converter - Ultimate Office",
+    page_icon=":briefcase:",
+    layout="wide"
+)
+
 # define three tabs
 tab1, tab2, tab3 = st.tabs(["Tab 1", "Tab 2", "Tab 3"])
 
