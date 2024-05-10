@@ -1,5 +1,5 @@
 [[pages]]
-path = "app/streamlit_app.py"
+path = "streamlit_app.py"
 name = "Welcome!"
 icon = ":house:"
 
