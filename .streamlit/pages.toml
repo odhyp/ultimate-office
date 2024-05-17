@@ -17,3 +17,8 @@ icon = ":nerd_face:"
 path = "app/page_3.py"
 name = "PDF Compressor"
 icon = ":nerd_face:"
+
+[[pages]]
+path = "app/page_4.py"
+name = "PDF Compressor using PyMuPDF"
+icon = ":nerd_face:"
