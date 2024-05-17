@@ -17,8 +17,8 @@ if uploaded_file is not None:
             writer = PdfWriter()
 
             # Compress the PDF
-            for page_num in range(len(reader.pages)):
-                page = reader.pages[page_num]
+            for page in reader.pages:
+                page.compress_content_streams()
                 writer.add_page(page)
 
             # Create a path for the temporary compressed PDF file
