@@ -7,3 +7,8 @@ icon = ":house:"
 path = "app/page_1.py"
 name = "Page 1"
 icon = ":nerd_face:"
+
+[[pages]]
+path = "app/page_2.py"
+name = "xls to xlsx"
+icon = ":nerd_face:"
